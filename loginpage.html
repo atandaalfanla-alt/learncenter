@@ -3,77 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register Now</title>
-    <style>
-        body{
-            color: white;
-            background: #ffa500;
-        }
-        h1{
-            color: black;
-            background-color: white;
-            width: 40%;
-            border-radius: 10px;
-            padding: 5px;
-        }
-        form{
-            display: block;
-            width: 50%;
-            margin: 0px auto;
-            background-color: white;
-            color: black;
-            padding: 5px;
-            border-radius: 10px;
-        }
-        .input{
-            width: 90%;
-            padding: 5px;
-            border-radius: 20px;
-            height: 20px;
-            border: 1px solid;
-        }
-        .label{
-            display: block;
-            font-size: 10px;
-            padding: 10px;
-        }
-        .navbar{
-            background: #fff;
-            height: auto;
-            width: 50%;
-            margin: 20px auto;
-            border: 1px;
-        }
-        ul{
-            color: #000;
-            list-style: none;
-            width: 100%;
-            display: flex;
-            margin-left: -20px;
-        }
-        li > a{
-            display: block;
-            padding: 10px 15px;
-            color: #000;
-            text-decoration: none;
-        }
-        li > a:hover, 
-        .active{
-            background: #000;
-            color: #fff;
-            border-radius: 10px;
-        }
-        button{
-            padding: 10px 20px;
-            border-radius: 10px;
-            border: none;
-            background: #000;
-            color: #fff;
-            margin-top: 10px;
-            width: 90%;
-            height: 30px;
-        }
-    </style>
+    <title>Login / Register Now</title>
 </head>
 <body>
     <div class="navbar">
@@ -84,7 +14,7 @@
         <li><a href="register.html" class="active">Register</a></li>
     </ul>
     </div>
-     <center>
+    <center>
         <h1>Register Now</h1>
     </center>
     <form action="process.php" method="post">
@@ -145,14 +75,11 @@
             <option value="Zamfara">Zamfara</option>
             <option value="FCT">FCT</option>
         </select>
-        <label class="label">Hobbies</label>
-        <textarea name="hobbies" id=""></textarea>
         <label class="label">Upload your profile picture</label>
         <input type="file" name="profile_picture" class="input">
         <input type="checkbox" name="terms" required >I agree to the terms and conditions 
         <button type="submit">Register</button>
         <button type="reset">Reset</button>
-        <button type="button">talk</button>
     </form>
 </body>
 </html>
